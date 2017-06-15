@@ -1,4 +1,10 @@
 // flashcards
+var card = required("./Flashcard-Generator.js");
+var fs = required("fs");
+var inquire = require("inquire");
+var question = require("question");
+var answer = require("answer");
+
 exports.BasicCard = function(question, answer){
     this.front = question;
     this.back = answer;
@@ -11,8 +17,8 @@ exports.ClozeCard = function(){
 
 
 var firstPresident = new BasicCard(
-    this.question = "Who was the first president of the United States?",
+    this.question = "Who was the first president of the United States?";
     console.log(firstPresident.front);
-    this.answer = "George Washington",
+    this.answer = "George Washington";
     console.log(firstPresident.back);
 );

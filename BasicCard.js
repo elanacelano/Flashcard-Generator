@@ -16,14 +16,7 @@ var firstPresident = new BasicCard(
         console.log(Sorry, incorrect);
 }
 
-var card = required("./Flashcard-Generator.js");
-var fs = required("fs");
-var inquire = require("inquire");
-var question = require("question");
-var answer = require("answer");
-{
 
-}
 // // "George Washington"
 // console.log(firstPresidentCloze.cloze); 
 

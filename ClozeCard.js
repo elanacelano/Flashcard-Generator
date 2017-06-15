@@ -12,7 +12,7 @@ var firstPresidentCloze = new ClozeCard(
 	console.log(firstPresidentCloze.partial);
 );
 
-if (this.answer ===  correct) {
+if (this.answer === correct) {
     console.log(WooHoo, correct);
 } else {
     console.log(Sorry, incorrect);
