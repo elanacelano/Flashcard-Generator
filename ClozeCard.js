@@ -4,17 +4,13 @@ exports.ClozeCard = function (question, answer){
 	this.back = answer;
 };
 
-// var firstPresident = new BasicCard(
-//     "Who was the first president of the United States?", "George Washington");
-
-// // "Who was the first president of the United States?"
-// console.log(firstPresident.front); 
-
-// // "George Washington"
-// console.log(firstPresident.back); 
-
-// var firstPresidentCloze = new ClozeCard(
-//     "George Washington was the first president of the United States.", "George Washington");
+ var firstPresidentCloze = new ClozeCard(
+    this.answer = "George Washington was the first president of the United States.",
+    this.answer = "George Washington";
+    console.log(firstPresidentCloze.cloze);
+    this.answer = " ... was the first president of the United States."
+    console.log(firstPresidentCloze.partial);
+    );
 
 // // "George Washington"
 // console.log(firstPresidentCloze.cloze); 
