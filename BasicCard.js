@@ -14,7 +14,7 @@ var firstPresident = new BasicCard(
         console.log(WooHoo, correct);
     } else {
         console.log(Sorry, incorrect);
-}
+}   
 
 
 // // "George Washington"
