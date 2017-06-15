@@ -1,21 +1,21 @@
 module.exports = ClozeCard;
-exports.ClozeCard = function (question, answer){
-	this.front = question;
-	this.back = answer;
+exports.ClozeCard = function(question, answer) {
+    this.front = question;
+    this.back = answer;
 };
 
- var firstPresidentCloze = new ClozeCard(
+var firstPresidentCloze = new ClozeCard(
     this.answer = "George Washington was the first president of the United States.",
-    this.answer = "George Washington";
-    console.log(firstPresidentCloze.cloze);
-    this.answer = " ... was the first president of the United States."
-    console.log(firstPresidentCloze.partial);
-    );
+    this.answer = "George Washington"; 
+    console.log(firstPresidentCloze.cloze); 
+	this.question = " ... was the first president of the United States."; 
+	console.log(firstPresidentCloze.partial);
+);
 
-    if (this.answer ==== correct) {
-        console.log(WooHoo, correct);
-    } else {
-        console.log(Sorry, incorrect);
+if (this.answer ===  correct) {
+    console.log(WooHoo, correct);
+} else {
+    console.log(Sorry, incorrect);
 }
 
 // // "George Washington"

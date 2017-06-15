@@ -1,4 +1,3 @@
-
 module.exports = BasicCard;
 exports.BasicCard = function(question, answer){
     this.front = question;
@@ -11,7 +10,7 @@ var firstPresident = new BasicCard(
     this.answer = "George Washington",
     console.log(firstPresident.back);
 );
-    if (this.question ==== correct) {
+    if (this.question === correct) {
         console.log(WooHoo, correct);
     } else {
         console.log(Sorry, incorrect);
