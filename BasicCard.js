@@ -1,21 +1,22 @@
+function BasicCard (front, back) {
+    this.front = front;
+    this.back = back;
+    this.printFront = function(){
+        console.log(this.front);
+    }
+    this.printBack = function(){
+        console.log(this.back);
+    }
+};
+
+
+
+
 module.exports = BasicCard;
-exports.BasicCard = function(question, answer){
-    this.front = question;
-    this.back = answer;
-};        
-
-var firstPresident = new BasicCard(
-    this.question = "Who was the first president of the United States?",
-    console.log(firstPresident.front);
-    this.answer = "George Washington",
-    console.log(firstPresident.back);
-);
-    if (this.question === correct) {
-        console.log(WooHoo, correct);
-    } else {
-        console.log(Sorry, incorrect);
-}   
-
+// exports.BasicCard = function(question, answer){
+//     this.front = question;
+//     this.back = answer;
+// };        
 
 // // "George Washington"
 // console.log(firstPresidentCloze.cloze); 
