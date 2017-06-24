@@ -2,20 +2,27 @@
 function clozeCard(text, cloze) {
   this.text = text;
   this.cloze = cloze;
-  this.printInfo = function(){
+  
+  //THIRD VARIABLE
+
+  //PARTIAL IS THE FULL TXT - THE CLOZE 
+  
+  //JAVASCRIPT STRING REPLACE
+  
+  this.printText = function(){
   	console.log("text" + this.text);
   };
-  this.printInfo = function(){
+  this.prinTCloze = function(){
   	console.log("cloze" + this.cloze);
   };
- 
+ };
+
+
 
 // new programmer object is initialized to bob and is provided with the variables necessary
 // to create all of the properties
-var bob = new Programmer("Bob Smith", "Supreme CodeMaster", 33, "JavaScript");
 
-// calls the printInfo method for bob to print all of his information to the console
-bob.printInfo();
+
 
 module.exports = ClozeCard;
 
